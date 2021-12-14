@@ -21,3 +21,8 @@ class ContestItem(scrapy.Item):
     url = scrapy.Field()
     headline = scrapy.Field()
     category = scrapy.Field()
+
+
+class SchoolName(scrapy.Item):
+    name = scrapy.Field()
+    prefecture = scrapy.Field()
