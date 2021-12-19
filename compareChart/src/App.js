@@ -13,7 +13,7 @@ const margin = {
   left: 10,
   right: 10,
 };
-const contentWidth = 600;
+const contentWidth = 800;
 const contentHeight = 200;
 
 const svgWidth = margin.left + margin.right + contentWidth;
@@ -169,31 +169,45 @@ function App() {
           金賞
         </label>
       </div>
-      <div style={{ width: "60%" }}>
+      <div style={{ width: "80%" }}>
         <svg
           viewBox={`${-margin.left} ${-margin.top} ${svgWidth} ${svgHeight}`}
         >
           {Object.keys(showData).map((year, row) => {
-            return showData[year].map((item, col) => {
-              return (
-                <rect
-                  key={colLen * row + col}
-                  x={len * col}
-                  y={len * row}
-                  width={len}
-                  height={len}
-                  stroke="lightgray"
-                  fill={color[item.club]}
-                  onMouseMove={(e) => {
-                    onHover(e);
-                    changeInfo(item);
-                  }}
-                  onMouseLeave={() => {
-                    setPopup(false);
-                  }}
-                />
-              );
-            });
+            return (
+              <g>
+                <text
+                  x={0}
+                  y={len * row + len / 2}
+                  textAnchor="start"
+                  dominantBaseline="central"
+                  fontSize="13"
+                  style={{ userSelect: "none" }}
+                >
+                  {year}
+                </text>
+                {showData[year].map((item, col) => {
+                  return (
+                    <rect
+                      key={colLen * row + col}
+                      x={50 + len * col}
+                      y={len * row}
+                      width={len}
+                      height={len}
+                      stroke="lightgray"
+                      fill={color[item.club]}
+                      onMouseMove={(e) => {
+                        onHover(e);
+                        changeInfo(item);
+                      }}
+                      onMouseLeave={() => {
+                        setPopup(false);
+                      }}
+                    />
+                  );
+                })}
+              </g>
+            );
           })}
         </svg>
         <Tooltip clientX={clientX} clientY={clientY} show={popup} info={info} />
