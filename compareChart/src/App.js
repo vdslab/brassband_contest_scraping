@@ -78,23 +78,27 @@ function App() {
       //野球
       for (let item of baseballData) {
         if (item["prefecture"] === prefecture) {
+          let find = false;
           for (let showItem of selectedData[item["year"]]) {
             //吹奏楽のデータがすでにある場合
             if (showItem["name"] === item["fullName"]) {
               showItem["club"] = DOUBLE;
               showItem["nationalBest"] = item["nationalBest"];
               showItem["regionalBest"] = item["regionalBest"];
+              find = true;
               break;
             }
           }
-          const data = {
-            name:
-              item["fullName"] !== "" ? item["fullName"] : item["shortName"],
-            nationalBest: item["nationalBest"],
-            regionalBest: item["regionalBest"],
-            club: BASEBALL,
-          };
-          selectedData[item["year"]].push(data);
+          if (!find) {
+            const data = {
+              name:
+                item["fullName"] !== "" ? item["fullName"] : item["shortName"],
+              nationalBest: item["nationalBest"],
+              regionalBest: item["regionalBest"],
+              club: BASEBALL,
+            };
+            selectedData[item["year"]].push(data);
+          }
         }
       }
 
