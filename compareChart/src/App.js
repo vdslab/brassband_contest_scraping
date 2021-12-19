@@ -130,7 +130,7 @@ function App() {
   }
 
   if (!showData) {
-    return <div>hello</div>;
+    return <div>loading...</div>;
   }
 
   return (
