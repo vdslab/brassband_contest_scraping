@@ -1,0 +1,10 @@
+LOAD CSV
+     FROM 'schoolName.csv' (a)
+     INTO postgresql:///pgloader?schoolNames (a)
+
+   BEFORE LOAD DO
+    $$ drop table if exists schoolNames; $$,
+    $$ create table schoolNames (
+        a char(2),
+       );
+  $$;
