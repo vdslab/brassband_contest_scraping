@@ -19,8 +19,8 @@ data = []
 for item in json_load_brass:
     # print(item)
     print(item["name"])
-    data.append({"schoolId": json_load_school[item["name"]], "prize": item["prize"], "prefecture": json_load_prefecture[item["prefecture"]],
-                 "last": item["last"], "representative": item["representative"], "year": item["year"]})
+    data.append({"schoolId": json_load_school[item["name"]], "prefectureId": json_load_prefecture[item["prefecture"]], "year": item["year"],
+                 "prize": item["prize"], "last": item["last"], "representative": item["representative"]})
 
 """
 with open('brassBandIdData.json', 'w') as f:
@@ -28,9 +28,9 @@ with open('brassBandIdData.json', 'w') as f:
 """
 
 
-field_name = ['schoolId', 'prize', 'prefecture',
-              'last', 'representative', 'year']
-with open(r'dic_test.csv', 'w', encoding='utf-8') as csvfile:
+field_name = ['schoolId', 'prefectureId', 'year', 'prize',
+              'last', 'representative']
+with open(r'brass_test.csv', 'w', encoding='utf-8') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=field_name)
     writer.writeheader()
     writer.writerows(data)

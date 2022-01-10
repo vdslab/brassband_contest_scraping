@@ -34,11 +34,11 @@ data = []
 id = 0
 for name in list(nameList):
     if name != "":
-        data.append({"name": name, "id": id})
+        data.append({"id": id, "name": name})
         id += 1
 
 
-field_name = ['name', 'id']
+field_name = ['id', 'name']
 with open(r'dic_test.csv', 'w', encoding='utf-8') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=field_name)
     writer.writeheader()
