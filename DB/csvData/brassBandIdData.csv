@@ -249,7 +249,7 @@ schoolId,prefectureId,year,prize,last,representative
 3768,43,2017,金賞,都道府県,False
 4489,43,2017,銀賞,都道府県,False
 802,43,2017,銀賞,都道府県,False
-3949,42,2017,金賞,都道府県,True
+983,42,2017,金賞,都道府県,True
 2259,42,2017,金賞,都道府県,True
 3074,42,2017,銅賞,都道府県,False
 1625,42,2017,銅賞,都道府県,False
@@ -712,7 +712,7 @@ schoolId,prefectureId,year,prize,last,representative
 3074,42,2013,銀賞,都道府県,False
 171,42,2013,金賞,都道府県,False
 4044,42,2013,銀賞,都道府県,False
-3949,42,2013,銅賞,都道府県,False
+983,42,2013,銅賞,都道府県,False
 1125,42,2013,金賞,都道府県,True
 4212,42,2013,銀賞,都道府県,False
 4321,42,2013,銅賞,都道府県,False
@@ -2784,7 +2784,7 @@ schoolId,prefectureId,year,prize,last,representative
 181,42,2015,金賞,都道府県,True
 2650,42,2015,銅賞,都道府県,False
 3074,42,2015,銅賞,都道府県,False
-3949,42,2015,銅賞,都道府県,False
+983,42,2015,銅賞,都道府県,False
 4069,42,2015,銅賞,都道府県,False
 3529,42,2015,銅賞,都道府県,False
 322,42,2015,銅賞,都道府県,False
@@ -3842,7 +3842,7 @@ schoolId,prefectureId,year,prize,last,representative
 2307,42,2016,銅賞,都道府県,False
 415,42,2016,銀賞,都道府県,False
 322,42,2016,銀賞,都道府県,False
-3949,42,2016,銀賞,都道府県,False
+983,42,2016,銀賞,都道府県,False
 1625,42,2016,銅賞,都道府県,False
 3645,42,2016,銀賞,都道府県,False
 2650,42,2016,金賞,都道府県,False
