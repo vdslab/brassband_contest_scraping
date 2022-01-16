@@ -182,7 +182,7 @@ schoolId,prefectureId,year,prize,last,representative
 3272,44,2017,,都道府県,False
 4680,44,2017,,都道府県,False
 4831,44,2017,,都道府県,False
-3857,44,2017,,都道府県,False
+92,44,2017,,都道府県,False
 4632,44,2017,,都道府県,False
 766,44,2017,,都道府県,False
 73,44,2017,,都道府県,False
@@ -190,7 +190,7 @@ schoolId,prefectureId,year,prize,last,representative
 1785,44,2017,,都道府県,False
 5115,44,2017,,都道府県,False
 684,44,2017,銀賞,支部,False
-401,44,2017,,都道府県,False
+4485,44,2017,,都道府県,False
 3551,44,2017,,都道府県,False
 4756,44,2017,,都道府県,False
 901,44,2017,,都道府県,False
@@ -1610,7 +1610,7 @@ schoolId,prefectureId,year,prize,last,representative
 3355,44,2014,銀賞,都道府県,False
 241,44,2014,銀賞,都道府県,False
 4351,44,2014,銅賞,都道府県,False
-401,44,2014,銀賞,都道府県,False
+4485,44,2014,銀賞,都道府県,False
 3191,44,2014,金賞,都道府県,False
 766,44,2014,銅賞,都道府県,False
 2571,44,2014,銀賞,都道府県,False
@@ -1619,7 +1619,7 @@ schoolId,prefectureId,year,prize,last,representative
 684,44,2014,金賞,都道府県,False
 901,44,2014,銀賞,都道府県,False
 1748,44,2014,銀賞,都道府県,False
-3857,44,2014,銀賞,都道府県,False
+92,44,2014,銀賞,都道府県,False
 4831,44,2014,銀賞,都道府県,False
 3588,44,2014,金賞,都道府県,False
 571,44,2014,金賞,都道府県,False
@@ -2715,12 +2715,12 @@ schoolId,prefectureId,year,prize,last,representative
 3619,44,2015,銅賞,都道府県,False
 1126,44,2015,銅賞,都道府県,False
 4680,44,2015,銀賞,都道府県,False
-401,44,2015,金賞,都道府県,False
+4485,44,2015,金賞,都道府県,False
 571,44,2015,金賞,都道府県,False
 4351,44,2015,銅賞,都道府県,False
 3272,44,2015,銀賞,都道府県,False
 3339,44,2015,金賞,都道府県,False
-3857,44,2015,金賞,都道府県,False
+92,44,2015,金賞,都道府県,False
 766,44,2015,銅賞,都道府県,False
 2491,44,2015,銅賞,都道府県,False
 3588,44,2015,銀賞,都道府県,False
@@ -3770,11 +3770,11 @@ schoolId,prefectureId,year,prize,last,representative
 4330,45,2016,銀賞,都道府県,False
 5115,44,2016,銅賞,都道府県,False
 3272,44,2016,銅賞,都道府県,False
-401,44,2016,金賞,都道府県,False
+4485,44,2016,金賞,都道府県,False
 571,44,2016,金賞,都道府県,False
 1298,44,2016,金賞,都道府県,False
 3551,44,2016,銀賞,都道府県,False
-3857,44,2016,銀賞,都道府県,False
+92,44,2016,銀賞,都道府県,False
 73,44,2016,銀賞,都道府県,False
 3355,44,2016,銅賞,都道府県,False
 977,44,2016,銅賞,都道府県,False
