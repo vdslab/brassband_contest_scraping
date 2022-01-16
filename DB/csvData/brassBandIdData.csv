@@ -158,7 +158,7 @@ schoolId,prefectureId,year,prize,last,representative
 4018,45,2017,銀賞,都道府県,False
 1137,45,2017,金賞,都道府県,False
 3314,45,2017,銀賞,都道府県,False
-4743,45,2017,銀賞,支部,False
+4035,45,2017,銀賞,支部,False
 2233,45,2017,銀賞,都道府県,False
 3898,45,2017,銀賞,都道府県,False
 860,45,2017,銀賞,都道府県,False
@@ -389,7 +389,7 @@ schoolId,prefectureId,year,prize,last,representative
 460,42,2016,金賞,全国,False
 2715,41,2016,金賞,支部,False
 2178,46,2016,銀賞,支部,False
-4743,45,2016,銀賞,支部,False
+4035,45,2016,銀賞,支部,False
 1672,39,2016,金賞,全国,False
 2812,43,2016,金賞,支部,False
 4797,39,2015,金賞,支部,False
@@ -416,7 +416,7 @@ schoolId,prefectureId,year,prize,last,representative
 3212,40,2015,銀賞,支部,False
 2979,43,2015,銀賞,支部,False
 2715,41,2015,銀賞,支部,False
-4743,45,2015,金賞,支部,False
+4035,45,2015,金賞,支部,False
 4037,39,2015,金賞,支部,False
 2178,46,2014,金賞,支部,False
 5004,41,2014,銀賞,支部,False
@@ -428,7 +428,7 @@ schoolId,prefectureId,year,prize,last,representative
 3544,40,2014,銀賞,支部,False
 1222,39,2014,金賞,支部,False
 4797,39,2014,銀賞,支部,False
-4743,45,2014,銀賞,支部,False
+4035,45,2014,銀賞,支部,False
 2102,39,2014,金賞,支部,False
 460,42,2014,金賞,全国,False
 3334,39,2014,銅賞,全国,False
@@ -468,7 +468,7 @@ schoolId,prefectureId,year,prize,last,representative
 4036,43,2013,銀賞,支部,False
 4797,39,2013,銀賞,支部,False
 4336,39,2013,銀賞,支部,False
-4743,45,2013,銀賞,支部,False
+4035,45,2013,銀賞,支部,False
 3334,39,2013,審査対象外,支部,False
 3267,35,2013,銀賞,支部,False
 3265,37,2013,銀賞,支部,False
